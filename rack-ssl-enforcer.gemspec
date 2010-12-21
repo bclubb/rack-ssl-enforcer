@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
-require 'rack/ssl-enforcer/version'
+require 'version'
 
 Gem::Specification.new do |s|
   s.name        = "rack-ssl-enforcer"
@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "guard",   ">= 0.2.1"
   s.add_development_dependency "guard-test", "~> 0.1.3"
   s.add_development_dependency "guard-bundler"
-  s.add_development_dependency "bundler", "~> 1.0.5"
+  s.add_development_dependency "bundler", "~> 1.0.2"
   s.add_development_dependency "test-unit", "~> 2.1.1"
   s.add_development_dependency "shoulda", "~> 2.11.3"
   s.add_development_dependency "rack", "~> 1.2.0"
